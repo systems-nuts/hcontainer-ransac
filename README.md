@@ -9,3 +9,15 @@ the client program is inside tool, along with the data generater, which can rand
 
 Compile:
 make
+
+## before run
+be sure the DATA_SIZE is same on both client and popcorn-ransac server and the real size of the data in byte
+
+## How to run? 
+```
+# on machine A
+./popcorn-ransac 
+# on machine B
+./client $ip_of_machine_A 
+
+```
